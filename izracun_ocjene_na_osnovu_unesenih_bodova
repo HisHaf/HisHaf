@@ -1,0 +1,15 @@
+bodovi = float (input ("Unesite broj bodova: \n"))
+if bodovi < 55:
+    print ("Niste položili ispit.")
+elif 55<=bodovi<65:
+    print ("Dobili ste 6.")
+elif 65<=bodovi<75:
+    print ("Dobili ste 7.")
+elif 75<=bodovi<85:
+    print ("Dobili ste 8.")
+elif 85<=bodovi<95:
+    print ("Dobili ste 9.")
+elif 95>=bodovi>=100:
+    print ("Dobili ste 10.")
+else:
+    print ("Bodovi moraju biti u rasponu od 0 do 100. Unesite broj bodova ponovo.")
